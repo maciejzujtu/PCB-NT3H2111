@@ -1295,7 +1295,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ec7aab5-0e4d-4d59-82b3-128e3f5350ef")
@@ -1319,7 +1319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NFC_Antenna:Class4_48x25mm_5T"
 			(at 149.86 78.74 0)
 			(hide yes)
 			(show_name no)

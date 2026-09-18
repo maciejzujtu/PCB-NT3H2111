@@ -63,14 +63,83 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
+          "pad_connection": 2,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|62100000|76750000|09d384b5-7018-4174-b704-b92b041e21f3|f8928445-121c-425b-aa22-5fda42b3aef9",
+          ""
+        ],
+        [
+          "clearance|62100000|76750000|a5b17ea7-d065-48ec-984f-9473407147ac|f8928445-121c-425b-aa22-5fda42b3aef9",
+          ""
+        ],
+        [
+          "clearance|62700000|76150000|45fa6b21-8204-4eac-b6f1-199343a90d2d|f8928445-121c-425b-aa22-5fda42b3aef9",
+          ""
+        ],
+        [
+          "clearance|68000000|66050000|b623d6e9-e8b4-482b-908c-b8c0cd234f4f|d3e4d8c0-c4eb-4734-8e31-69edb503d0c1",
+          ""
+        ],
+        [
+          "shorting_items|62100000|75750000|70d0bb1b-de8d-475b-a481-07dd8a70755d|f8928445-121c-425b-aa22-5fda42b3aef9",
+          ""
+        ],
+        [
+          "shorting_items|62100000|76550000|28dc0e67-4b3a-4541-a6a6-c58ba7b082f8|f8928445-121c-425b-aa22-5fda42b3aef9",
+          ""
+        ],
+        [
+          "shorting_items|62500000|76150000|41297401-9f97-4116-ac5d-97eee9f13802|f8928445-121c-425b-aa22-5fda42b3aef9",
+          ""
+        ],
+        [
+          "shorting_items|66000000|65650000|28fb6427-37d2-4361-aa66-e2cf4bd1c119|6390931d-914f-4a64-8754-2e7bdcde1cf4",
+          ""
+        ],
+        [
+          "shorting_items|66000000|67650000|9215d78f-1c9d-4b4d-9bd0-371e20e15fd2|af0941fb-3fa2-4cb8-8c8a-cadabcc0ac94",
+          ""
+        ],
+        [
+          "shorting_items|67600000|65650000|28fb6427-37d2-4361-aa66-e2cf4bd1c119|b623d6e9-e8b4-482b-908c-b8c0cd234f4f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|62100000|75750000|70d0bb1b-de8d-475b-a481-07dd8a70755d|f8928445-121c-425b-aa22-5fda42b3aef9",
+          ""
+        ],
+        [
+          "solder_mask_bridge|62100000|76550000|28dc0e67-4b3a-4541-a6a6-c58ba7b082f8|f8928445-121c-425b-aa22-5fda42b3aef9",
+          ""
+        ],
+        [
+          "solder_mask_bridge|62500000|76150000|41297401-9f97-4116-ac5d-97eee9f13802|f8928445-121c-425b-aa22-5fda42b3aef9",
+          ""
+        ],
+        [
+          "solder_mask_bridge|66000000|65650000|28fb6427-37d2-4361-aa66-e2cf4bd1c119|6390931d-914f-4a64-8754-2e7bdcde1cf4",
+          ""
+        ],
+        [
+          "solder_mask_bridge|66000000|67650000|9215d78f-1c9d-4b4d-9bd0-371e20e15fd2|af0941fb-3fa2-4cb8-8c8a-cadabcc0ac94",
+          ""
+        ],
+        [
+          "solder_mask_bridge|67600000|65650000|28fb6427-37d2-4361-aa66-e2cf4bd1c119|b623d6e9-e8b4-482b-908c-b8c0cd234f4f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|68000000|66050000|d3e4d8c0-c4eb-4734-8e31-69edb503d0c1|b623d6e9-e8b4-482b-908c-b8c0cd234f4f",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -526,7 +595,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/Users/maciej/Desktop/PCB-NT3H2111/NFC/gerbers",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

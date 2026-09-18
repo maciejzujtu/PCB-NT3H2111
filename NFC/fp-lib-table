@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "NFC_Antenna") (type "KiCad") (uri "/Users/maciej/Desktop/PCB-NT3H2111/libs/NFC_Antenna.pretty") (options "") (descr ""))
+)
