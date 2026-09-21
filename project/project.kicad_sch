@@ -679,14 +679,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NT3H2111W0FKH:NT3H2111W0FTTJ"
+		(symbol "NT3H2111W0FTTJ:NT3H2111W0FTTJ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -13.716 41.91 0)
+			(property "Reference" "NT3H2111W0FTTJ"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -695,17 +695,17 @@
 					)
 				)
 			)
-			(property "Value" "NT3H2111 W0FTTJ"
-				(at 0 27.686 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "NT3H2111W0FHKH:QFN8P50_160X160X50L40X20N"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -740,8 +740,8 @@
 			)
 			(symbol "NT3H2111W0FTTJ_1_1"
 				(rectangle
-					(start -12.7 40.64)
-					(end 12.7 15.24)
+					(start -12.7 13.97)
+					(end 12.7 -11.43)
 					(stroke
 						(width 0)
 						(type solid)
@@ -751,7 +751,7 @@
 					)
 				)
 				(circle
-					(center -11.43 39.37)
+					(center -11.43 12.7)
 					(radius 0.898)
 					(stroke
 						(width 0)
@@ -762,7 +762,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 34.29 180)
+					(at 15.24 7.62 180)
 					(length 2.54)
 					(name "LA"
 						(effects
@@ -780,7 +780,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 17.78 180)
+					(at 15.24 -8.89 180)
 					(length 2.54)
 					(name "VSS"
 						(effects
@@ -798,7 +798,7 @@
 					)
 				)
 				(pin input clock
-					(at -15.24 17.78 0)
+					(at -15.24 -8.89 0)
 					(length 2.54)
 					(name "SCL"
 						(effects
@@ -816,7 +816,7 @@
 					)
 				)
 				(pin input line
-					(at -15.24 21.59 0)
+					(at -15.24 -5.08 0)
 					(length 2.54)
 					(name "FD"
 						(effects
@@ -834,7 +834,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 25.4 0)
+					(at -15.24 -1.27 0)
 					(length 2.54)
 					(name "SDA"
 						(effects
@@ -852,7 +852,7 @@
 					)
 				)
 				(pin power_in line
-					(at -15.24 29.21 0)
+					(at -15.24 2.54 0)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -870,7 +870,7 @@
 					)
 				)
 				(pin power_out line
-					(at 15.24 21.59 180)
+					(at 15.24 -5.08 180)
 					(length 2.54)
 					(name "VOUT"
 						(effects
@@ -888,7 +888,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 30.48 180)
+					(at 15.24 3.81 180)
 					(length 2.54)
 					(name "LB"
 						(effects
@@ -1140,16 +1140,16 @@
 		)
 	)
 	(junction
+		(at 185.42 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0164227a-6289-47c2-b162-1cbb051062b4")
+	)
+	(junction
 		(at 213.36 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02444431-c727-4cd8-989d-25ebdc8f1a88")
-	)
-	(junction
-		(at 185.42 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7121fb58-eb10-42ca-bc59-4b5f75dc090e")
 	)
 	(junction
 		(at 213.36 102.87)
@@ -1589,6 +1589,104 @@
 		)
 	)
 	(symbol
+		(lib_id "NT3H2111W0FTTJ:NT3H2111W0FTTJ")
+		(at 170.18 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b8ab3bf-dc0d-424d-8380-0f1b24a90b7d")
+		(property "Reference" "NT3H2111W0FTTJ1"
+			(at 170.18 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 170.18 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce728b8d-24b3-4928-ae37-74a07fa28f53")
+		)
+		(pin "2"
+			(uuid "626a5ef9-e9cb-4e3e-8a02-e28cb8b98c26")
+		)
+		(pin "7"
+			(uuid "e40ddb6f-bec3-450f-94b1-9793b5f79074")
+		)
+		(pin "5"
+			(uuid "b8b63b6e-aafd-4274-a460-a35c69183432")
+		)
+		(pin "8"
+			(uuid "6193e650-815c-43c0-a477-d3f1b04dd11d")
+		)
+		(pin "6"
+			(uuid "9d52193a-23ee-497f-8c11-47153e7659fe")
+		)
+		(pin "3"
+			(uuid "c6c291c8-3ca0-4f11-bcc4-46f8b995d3ab")
+		)
+		(pin "4"
+			(uuid "47d4167e-dd84-48c5-9ea8-d2d8dc8751a1")
+		)
+		(instances
+			(project "project"
+				(path "/fed6ff00-34e9-42bd-bda3-4936dd95dfc1"
+					(reference "NT3H2111W0FTTJ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 213.36 90.17 0)
 		(unit 1)
@@ -1834,115 +1932,6 @@
 			(project "project"
 				(path "/fed6ff00-34e9-42bd-bda3-4936dd95dfc1"
 					(reference "ANT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NT3H2111W0FKH:NT3H2111W0FTTJ")
-		(at 170.18 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe91dc3b-a2e7-4488-af7f-212e2501ded5")
-		(property "Reference" "U1"
-			(at 170.18 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NT3H2211W0FTTJ"
-			(at 170.18 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
-			(at 170.18 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2654822"
-			(at 170.18 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "e41a65c9-63c9-44b1-9e8c-cf71dbc85e0c")
-		)
-		(pin "7"
-			(uuid "e4e8fc7b-ae77-4e16-85de-9e553f939bce")
-		)
-		(pin "6"
-			(uuid "cbcb5691-5d80-4b12-a803-72825455a328")
-		)
-		(pin "5"
-			(uuid "bc1a59b9-3656-4d99-9a6f-4831e92e3157")
-		)
-		(pin "4"
-			(uuid "0cf0425a-dfed-401a-9606-434bbb94d880")
-		)
-		(pin "1"
-			(uuid "9f9c4167-2d98-4bc8-81d4-00012c5bf4cf")
-		)
-		(pin "3"
-			(uuid "421f1808-08eb-43cd-835d-df0158db2952")
-		)
-		(pin "2"
-			(uuid "bb693486-3cd4-4a60-8102-18079301f334")
-		)
-		(instances
-			(project "project"
-				(path "/fed6ff00-34e9-42bd-bda3-4936dd95dfc1"
-					(reference "U1")
 					(unit 1)
 				)
 			)

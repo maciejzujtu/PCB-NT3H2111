@@ -686,7 +686,7 @@
         "uuid": "fed6ff00-34e9-42bd-bda3-4936dd95dfc1"
       }
     ],
-    "used_designators": "U1-2,LED1-2,L1,D1,ANT1-3,#PWR1-2,C1-2,R1-2,#FLG1",
+    "used_designators": "U1-2,LED1-2,L1,D1,NT3H2111W0FTTJ1,ANT1-3,#PWR1-2,C1-2,R1-2,#FLG1",
     "variants": []
   },
   "sheets": [
