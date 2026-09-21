@@ -6,7 +6,7 @@
 	(property "Reference" "G***"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "6e6481d6-34bc-42ed-8f18-50a30b9afddc")
+		(uuid "6d38b64d-a7a3-467b-a7d6-eeb6833571a5")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -18,7 +18,7 @@
 		(at 0.75 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3a2a40f3-c554-4923-bed2-a01ae57ae787")
+		(uuid "7b8301e2-f1e7-4cc4-b852-f5f099b4a894")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0ca8590c-2420-42e6-a18e-e3d1729b3436")
+		(uuid "2d35f4e2-2c3d-49d5-8f05-c43319d9e5a5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "215779eb-a5a1-4269-9de6-c951949afb75")
+		(uuid "a61b3781-7c57-45db-ad3a-582cfda26c1c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "20eab14e-6fbb-4518-b659-1dc49a5a1a03")
+		(uuid "c9def8ad-94eb-44ba-a553-a2e4af07878d")
 	)
 	(fp_poly
 		(pts
@@ -74,7 +74,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "b834ef2f-e518-4a11-86b4-46f0aefd811f")
+		(uuid "010e83a8-4683-4704-832a-fb30dead4bf1")
 	)
 	(fp_poly
 		(pts
@@ -87,7 +87,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "f9580a4f-decc-4952-9c61-59c12e8b259e")
+		(uuid "7a3e6541-7115-4150-8a3f-75d71838977b")
 	)
 	(fp_poly
 		(pts
@@ -100,7 +100,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "b1cecfba-6525-4d3a-af48-7d7c8920eed0")
+		(uuid "3ea2fb1d-a3bd-4da1-9e3c-0660cfd87ad1")
 	)
 	(fp_poly
 		(pts
@@ -113,7 +113,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "6c71be0f-afb7-4b9d-a17f-3e47b0271385")
+		(uuid "6fcd0e7f-a05d-489c-ac09-d2fd3288fafb")
 	)
 	(fp_poly
 		(pts
@@ -126,7 +126,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "47d6e6af-c287-4f3b-bd2a-f50dffd42bb0")
+		(uuid "a7afa23b-1378-47d6-a45f-5ff365fd2ce6")
 	)
 	(fp_poly
 		(pts
@@ -139,7 +139,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "b6d3efde-9e8e-4188-84ff-3b4d85439372")
+		(uuid "1ccdfd4d-c126-47c5-ac97-26c79642dbce")
 	)
 	(fp_poly
 		(pts
@@ -152,7 +152,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "7e1bd8fc-50f7-436e-883d-0c9a909720d6")
+		(uuid "33cf45af-6c3f-4c0d-8b77-dc6a95ed0c5b")
 	)
 	(fp_poly
 		(pts
@@ -165,7 +165,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "8fa78afe-3e22-4e83-838b-b598811303cf")
+		(uuid "a53bbd18-38a5-4236-9465-a81ae05ee2dc")
 	)
 	(fp_poly
 		(pts
@@ -178,7 +178,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "944a65a2-fcaa-459b-a98c-c51361698c95")
+		(uuid "dacbb8ad-bbab-4280-8ce1-e28d1e45ad9b")
 	)
 	(fp_poly
 		(pts
@@ -191,7 +191,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "d17ef110-b14f-4028-ab5d-f65dcc3c4a1f")
+		(uuid "09c70b74-2e3b-4ff5-aea3-991375a1a971")
 	)
 	(fp_poly
 		(pts
@@ -204,7 +204,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "18acf6af-07da-42b6-994a-fdfbc0ebbcd8")
+		(uuid "78486754-69bc-4cfa-8793-81930e4311a8")
 	)
 	(fp_poly
 		(pts
@@ -219,7 +219,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "bbbc9526-69c2-44c8-bc3d-398df37efb83")
+		(uuid "e492a902-215d-4276-a5fc-9d53773a7487")
 	)
 	(fp_poly
 		(pts
@@ -236,7 +236,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "71e9b93d-9294-43a7-88a2-751a5c651003")
+		(uuid "c11fa89c-4aa7-4581-88d5-8c6a0637b7ef")
 	)
 	(fp_poly
 		(pts
@@ -252,7 +252,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "ac2bb44f-3f8e-4bd7-a4a9-8046630b58d1")
+		(uuid "14f85165-dbd0-4220-ae86-eea913cb29e1")
 	)
 	(fp_poly
 		(pts
@@ -268,7 +268,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "c003451c-75b5-4197-8211-3b13a2d37e00")
+		(uuid "6580e9a3-d47a-450a-b280-99078edbf037")
 	)
 	(fp_poly
 		(pts
@@ -284,7 +284,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "7c0ae3b4-79ab-4854-ab08-a3d0890c2b38")
+		(uuid "b773d6d4-1c3a-44fb-b61a-3195b911d203")
 	)
 	(fp_poly
 		(pts
@@ -462,7 +462,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "795d6ffa-f3ae-4d8c-8338-3f394e2f7efa")
+		(uuid "ff90cdb3-a23a-4883-8fae-30b4ac8db804")
 	)
 	(embedded_fonts no)
 )

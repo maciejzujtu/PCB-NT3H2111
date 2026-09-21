@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.56,
-          "width": 0.56
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -72,7 +72,19 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "hole_clearance|169520001|133500000|f81e34bd-711b-4e1d-b16a-f1bd7e1f1678|c07bfb0a-e2c6-4abe-8dc6-5ff67bcb990d",
+          "footprint_symbol_field_mismatch|135500000|77000000|aa6f3517-6189-435e-88f1-f360bf5261bd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "hole_clearance|145785001|77000000|33f36584-31d2-4c85-b098-1cb123c48b50|f049cea4-7d77-40ba-8ffe-095abcb7f85f",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|157850000|76992500|1a64c425-24e8-4960-80a1-dfcc616fe637|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|161000000|89287500|61a1862b-9598-468f-babd-50fe5ddb0b13|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -674,7 +686,7 @@
         "uuid": "fed6ff00-34e9-42bd-bda3-4936dd95dfc1"
       }
     ],
-    "used_designators": "U1-2,L1,D1,C1,R1,#FLG1",
+    "used_designators": "U1-2,LED1-2,L1,D1,ANT1-3,#PWR1-2,C1-2,R1-2,#FLG1",
     "variants": []
   },
   "sheets": [

@@ -18,17 +18,17 @@
 				)
 			)
 		)
-		(property "Value" "NT3H2111W0FHKH"
+		(property "Value" "NT3H2111 W0FTTJ"
 			(at 0 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "NT3H2111W0FHKH:TSSOP8"
+		(property "Footprint" "NT3H2111W0FHKH:QFN8P50_160X160X50L40X20N"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -175,7 +175,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 38.1 180)
+				(at -15.24 29.21 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
