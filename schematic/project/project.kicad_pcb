@@ -382,7 +382,7 @@
 				)
 			)
 		)
-		(property "Value" "NT3H2111W0FTTJ"
+		(property "Value" "NT3H2211W0FTTJ"
 			(at 0 2.55 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -420,9 +420,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2654822"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d81f5ba-6da1-4dd1-bd63-20ef8e546edc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fe91dc3b-a2e7-4488-af7f-212e2501ded5")
 		(sheetname "/")
 		(sheetfile "project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "5" "4" "3" "1" "8" "7" "2")
+			)
+		)
 		(clearance 0.2)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -1466,6 +1485,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C17513"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32ce815d-38a4-42b7-9314-0b2ea43790d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2d3f4748-3d7e-4437-8495-9bd591eaa2b8")
 		(sheetname "/")
@@ -1589,7 +1621,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "file:///Users/maciej/Desktop/NT3H2111/docs/AN11276.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1959,6 +1991,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C520076"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dac13725-262f-4abb-bd20-188870cfd050")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/adfeb913-21f4-45bb-9b60-8a2a68a6edad")
 		(sheetname "/")
@@ -2074,7 +2119,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED_Yellow"
+		(property "Value" "APT1608SYCK/J3-PRV"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -2138,10 +2183,30 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C5440241"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cc1fead1-dc38-4a3b-a9d6-c512fbf66135")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/31b9176b-72e3-47ac-b44c-f63343cfc495")
 		(sheetname "/")
 		(sheetfile "project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
