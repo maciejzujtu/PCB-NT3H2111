@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 1,
+    "active_layer": 3,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_f7ffffde",
     "zone_display_mode": 1
   },
   "git": {
@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "NFC.kicad_prl",
+    "filename": "project.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

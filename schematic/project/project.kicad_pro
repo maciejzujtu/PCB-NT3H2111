@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 0.56,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,11 +50,11 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 1,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
-          "fill_mode": 0,
+          "fill_mode": 1,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
@@ -63,8 +63,8 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
-          "remove_islands": 1,
+          "pad_connection": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -72,71 +72,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "clearance|62100000|76750000|09d384b5-7018-4174-b704-b92b041e21f3|f8928445-121c-425b-aa22-5fda42b3aef9",
-          ""
-        ],
-        [
-          "clearance|62100000|76750000|a5b17ea7-d065-48ec-984f-9473407147ac|f8928445-121c-425b-aa22-5fda42b3aef9",
-          ""
-        ],
-        [
-          "clearance|62700000|76150000|45fa6b21-8204-4eac-b6f1-199343a90d2d|f8928445-121c-425b-aa22-5fda42b3aef9",
-          ""
-        ],
-        [
-          "clearance|68000000|66050000|b623d6e9-e8b4-482b-908c-b8c0cd234f4f|d3e4d8c0-c4eb-4734-8e31-69edb503d0c1",
-          ""
-        ],
-        [
-          "shorting_items|62100000|75750000|70d0bb1b-de8d-475b-a481-07dd8a70755d|f8928445-121c-425b-aa22-5fda42b3aef9",
-          ""
-        ],
-        [
-          "shorting_items|62100000|76550000|28dc0e67-4b3a-4541-a6a6-c58ba7b082f8|f8928445-121c-425b-aa22-5fda42b3aef9",
-          ""
-        ],
-        [
-          "shorting_items|62500000|76150000|41297401-9f97-4116-ac5d-97eee9f13802|f8928445-121c-425b-aa22-5fda42b3aef9",
-          ""
-        ],
-        [
-          "shorting_items|66000000|65650000|28fb6427-37d2-4361-aa66-e2cf4bd1c119|6390931d-914f-4a64-8754-2e7bdcde1cf4",
-          ""
-        ],
-        [
-          "shorting_items|66000000|67650000|9215d78f-1c9d-4b4d-9bd0-371e20e15fd2|af0941fb-3fa2-4cb8-8c8a-cadabcc0ac94",
-          ""
-        ],
-        [
-          "shorting_items|67600000|65650000|28fb6427-37d2-4361-aa66-e2cf4bd1c119|b623d6e9-e8b4-482b-908c-b8c0cd234f4f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|62100000|75750000|70d0bb1b-de8d-475b-a481-07dd8a70755d|f8928445-121c-425b-aa22-5fda42b3aef9",
-          ""
-        ],
-        [
-          "solder_mask_bridge|62100000|76550000|28dc0e67-4b3a-4541-a6a6-c58ba7b082f8|f8928445-121c-425b-aa22-5fda42b3aef9",
-          ""
-        ],
-        [
-          "solder_mask_bridge|62500000|76150000|41297401-9f97-4116-ac5d-97eee9f13802|f8928445-121c-425b-aa22-5fda42b3aef9",
-          ""
-        ],
-        [
-          "solder_mask_bridge|66000000|65650000|28fb6427-37d2-4361-aa66-e2cf4bd1c119|6390931d-914f-4a64-8754-2e7bdcde1cf4",
-          ""
-        ],
-        [
-          "solder_mask_bridge|66000000|67650000|9215d78f-1c9d-4b4d-9bd0-371e20e15fd2|af0941fb-3fa2-4cb8-8c8a-cadabcc0ac94",
-          ""
-        ],
-        [
-          "solder_mask_bridge|67600000|65650000|28fb6427-37d2-4361-aa66-e2cf4bd1c119|b623d6e9-e8b4-482b-908c-b8c0cd234f4f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|68000000|66050000|d3e4d8c0-c4eb-4734-8e31-69edb503d0c1|b623d6e9-e8b4-482b-908c-b8c0cd234f4f",
+          "hole_clearance|169520001|133500000|f81e34bd-711b-4e1d-b16a-f1bd7e1f1678|c07bfb0a-e2c6-4abe-8dc6-5ff67bcb990d",
           ""
         ]
       ],
@@ -554,12 +490,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "local"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "NFC.kicad_pro",
+    "filename": "project.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -595,7 +529,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "/Users/maciej/Desktop/PCB-NT3H2111/NFC/gerbers",
+      "plot": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -720,6 +654,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -727,18 +669,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "NFC.kicad_sch",
-        "name": "NFC",
-        "uuid": "bdc7f776-762c-401c-b3c8-2ccb581e6fa3"
+        "filename": "project.kicad_sch",
+        "name": "project",
+        "uuid": "fed6ff00-34e9-42bd-bda3-4936dd95dfc1"
       }
     ],
-    "used_designators": "L1,C1-2,U1,#PWR1-2,1",
+    "used_designators": "U1-2,L1,D1,C1,R1,#FLG1",
     "variants": []
   },
   "sheets": [
     [
-      "bdc7f776-762c-401c-b3c8-2ccb581e6fa3",
-      "NFC"
+      "fed6ff00-34e9-42bd-bda3-4936dd95dfc1",
+      "project"
     ]
   ],
   "text_variables": {},
